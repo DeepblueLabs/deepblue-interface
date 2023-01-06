@@ -19,7 +19,7 @@ const buttonClasses = cva("rounded-full inline-flex items-center", {
             tertiary: "",
         },
         size: {
-            small: "text-xs px-3 h-7",
+            small: "text-xs px-3 h-7 mr-[1.4rem]",
             medium: "text-sm px-4 h-8",
             large: "text-md px-6 h-12",
         },
