@@ -16,4 +16,43 @@
     .text-shadow {
         text-shadow: rgb(0 0 0 / 50%) 0px 3px 12px;
     }
+
+    .text-gradient {
+        background: linear-gradient(to right bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.38));
+        background-clip: text;
+        color: transparent;
+    }
+
+    .text-gradient {
+        background: linear-gradient(to right bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.38));
+        background-clip: text;
+        color: transparent;
+      }
+    
+      .mask-radial-faded {
+        mask-image: radial-gradient(circle at center center, black, transparent 80%)
+      }
+    
+      .mask-linear-faded {
+        mask-image: linear-gradient(black, transparent 70%)
+      }
+    
+      .mask-keyboard {
+        mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.57) 33.98%, black 100%);
+      }
+    
+      .mask-shortcutkeys {
+        mask-image: linear-gradient(to right, transparent, black 40%, black calc(60%), transparent 100%);
+      }
+}
+
+@keyframes gisjuz {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }

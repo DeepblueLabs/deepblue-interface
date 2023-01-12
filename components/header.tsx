@@ -29,7 +29,7 @@ export const Header = () => {
     }, [setHamburgerMenuIsOpen]);
 
     return (
-        <header className='fixed top-0 left-0 w-full border-b border-transparent-white backdrop-blur-[12px]'>
+        <header className='fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]'>
             <Container className='flex h-navigation-height'>
                 <Link className='flex items-center text-md' href='/'>
                     <Logo className='w-[1.8rem] h-[1.8rem] mr-4' /> DeepBlue Labs
