@@ -1,27 +1,38 @@
-'use client';
-import React from 'react';
-import Typewriter from 'react-ts-typewriter';
+'use client'
 import classNames from 'classnames';
 import { Container } from '../components/container'
-import { Hero, HeroTitle, HeroSubtitle } from '../components/hero'
-import { HeroImage } from '../components/hero-image';
+import { HomepageHero } from '../components/sections/homepage-hero';
+import { PowerBy } from '../components/sections/powerBy';
+import { Projects } from '../components/sections/projects';
+import { About } from '../components/sections/about';
+import { Contact } from '../components/sections/Contact';
 
 export default function HomePage() {
     return (
         <>
-        <div className='overflow-hidden pb-[16.4rem] md:pb-[25.6rem]'>
-            <Container className='pt-[6.4rem]'>
-                <Hero>
-                    <HeroTitle className='animate-fade-in [--animation-delay:200ms]'>
-                        DeepBlue Labs
-                    </HeroTitle>
-                    <HeroSubtitle className='animate-fade-in'>
-                        DeepBlue Labs is an independent research lab focused on <br />exploring and developing new solutions in the field of AI and web 3.0.
-                    </HeroSubtitle>
-                    <HeroImage/>
-                </Hero>
-            </Container>
-        </div>
+            <div className='overflow-hidden pb-[16.4rem] md:pb-[25.6rem]'>
+                <Container className='py-[6.4rem]'>
+                    <HomepageHero />
+                </Container>
+                <div>
+                    <Container>
+                        <PowerBy />
+                    </Container>
+                    <div
+                        className={classNames(
+                            "mask-radial-faded pointer-events-none relative z-[-1] my-[-12.8rem] h-[60rem] overflow-hidden",
+                            "[--color:#7877C6] before:absolute before:inset-0 before:bg-radial-faded before:opacity-[0.4]",
+                            "after:absolute after:top-1/2 after:-left-1/2 after:h-[142.8%] after:w-[200%] after:rounded-[50%] after:border-t after:border-[rgba(120,_119,_198,_0.4)] after:bg-background"
+                        )}
+                    />
+                    <Container>
+                        <Projects />
+                        <About />
+                        <Contact />
+                    </Container>
+
+                </div>
+            </div>
         </>
     );
 }

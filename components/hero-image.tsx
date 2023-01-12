@@ -104,10 +104,8 @@ export const HeroImage = () => {
             "relative z-10 transition-opacity delay-[680ms]",
             inView ? "opacity-100" : "opacity-0"
           )}
-          src="/img/hero.png"
+          src="/img/hero.webp"
           alt="Hero image"
-          width={512}
-          height={512}
         />
       </div>
     </div>

@@ -65,7 +65,7 @@ export const Header = () => {
                 </div>
 
                 <div className='ml-auto h-full flex items-center'>
-                    <Link className='mr-6 text-sm' href='#'>Log In</Link>
+                    <Link className='mr-6 text-sm hidden md:block' href='#'>Log In</Link>
                     <Button href='#' size='small' variant='primary'>SharkPunks</Button>
                 </div>
 
