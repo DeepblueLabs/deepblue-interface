@@ -32,7 +32,7 @@ export const Header = () => {
         <header className='fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]'>
             <Container className='flex h-navigation-height'>
                 <Link className='flex items-center text-md' href='/'>
-                    <Logo className='w-[1.8rem] h-[1.8rem] mr-4' /> DeepBlue Labs
+                    <Logo className='w-[2.4rem] h-[2.4rem] mr-4' /> DeepBlue Labs
                 </Link>
 
                 <div
@@ -66,7 +66,7 @@ export const Header = () => {
 
                 <div className='ml-auto h-full flex items-center'>
                     <Link className='mr-6 text-sm hidden md:block' href='#'>Log In</Link>
-                    <Button href='#' size='small' variant='primary'>SharkPunks</Button>
+                    <Button href='#' size='small' variant="primary">SharkPunks</Button>
                 </div>
 
                 <button

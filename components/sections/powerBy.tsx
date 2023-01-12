@@ -5,7 +5,7 @@ import { VercelLogo } from "../logos/Vercel";
 
 export const PowerBy = () => (
     <>
-        <p className="mb-12 text-center text-lg text-white md:text-xl">
+        <p className="mb-12 text-center text-lg md:text-xl">
             <span className="text-primary-text">
                 Powered by the best technologies and frameworks in the world.
             </span>

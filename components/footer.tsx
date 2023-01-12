@@ -63,7 +63,7 @@ export const Footer = () => (
                                 <li 
                                     key={link.title}
                                     className='[&_a]:last:mb-0'>
-                                    <Link className='mb-3 block text-grey transition-colors hover:text-off-white' href={link.href}>
+                                    <Link className='mb-3 block text-grey transition-colors hover:text-off-black' href={link.href}>
                                         {link.title}
                                     </Link>
                                 </li>
