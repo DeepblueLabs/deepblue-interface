@@ -8,9 +8,9 @@ import sharkpunks from '../illustrations/sharkpunks.png';
 import { Container } from '../container';
 
 export const Projects = () => (
-    <div className='text-grey-dark'>
+    <div className='text-grey-dark mb-14'>
         <Container>
-            <div className="text-center">
+            <div className="text-center" id="projects">
                 <h2 className="mb-4 text-4xl md:text-7xl">
                     Project development
                 </h2>

@@ -52,10 +52,10 @@ export const Header = () => {
                             hamburgerMenuIsOpen && "[&_a]:translate-y-0"
                         )}>
                             <li className='md:hidden lg:block'>
-                                <Link href='#'>Projects</Link>
+                                <Link href="#projects">Projects</Link>
                             </li>
                             <li className='md:hidden lg:block'>
-                                <Link href='#'>About</Link>
+                                <Link href='#about'>About</Link>
                             </li>
                             <li className='md:hidden lg:block'>
                                 <Link href='#'>Contact</Link>

@@ -28,6 +28,9 @@ export default function HomePage() {
                     <Container>
                         <Projects />
                     </Container>
+                    <Container>
+                        <About />
+                    </Container>
                 </div>
             </div>
         </>

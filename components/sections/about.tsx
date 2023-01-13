@@ -1,26 +1,41 @@
+import Image from 'next/image'
+import team from '../illustrations/team.png'
+import { Container } from '../container'
+
 export const About = () => (
-    <>
-        <div>
-            <h2 className="mb-12 text-center text-lg text-off-white md:text-xl">
-                <span>
-                    Mision
-                </span>
-            </h2>
-            <div>
-                <p>
-                At DeepBlue Labs, our mission is to develop innovative solutions using blockchain and AI technology to improve the way we live, work, and connect with each other. We believe that these technologies have the power to transform industries and create a more equitable and efficient world. Our team is dedicated to pushing the boundaries of what is possible with these technologies and creating products and services that make a meaningful impact on the world.
+    <div className='text-grey-dark' id='about'>
+        <Container>
+            <div className="text-center" id="projects">
+                <h2 className="mb-4 text-4xl md:text-6xl">About us</h2>
+                <p className="mx-auto mb-12 max-w-[68rem] text-lg text-primary-text md:mb-7 md:text-xl">
+                    Meet DeepBlue Labs and our team, collaborators, and advisors.
+                </p>
+                <Image
+                    src={team}
+                    width={1200}
+                    height={800}
+                    alt=""
+                />
+            </div>
+            <div className='mt-12 mx-auto max-w-[68rem]'>
+                <p className='text-md text-primary-text '>
+                    Our team includes well-known developers, core members of public chains and other infrastructure projects,
+                    and experts in blockchain governance and economic architecture. Many of our team members come from crypto companies,
+                    giving us strong expertise in the creation and development of blockchain projects.
+                    <br className='hidden md:inline-block' />
+                    <br className='hidden md:inline-block' />
+                    As a team, we are dedicated to creating innovative projects that utilize the power of web 3.0 technologies.
+                    With SharkPunks, we aim to bring together a community of collectors and investors who share our passion for
+                    technology and innovation. We look forward to working with our community to build and grow SharkPunks into
+                    a successful and impactful project.
+                    <br className='hidden md:inline-block' />
+                    <br className='hidden md:inline-block' />
+                    With a focus on creating projects that are both functional and aesthetically pleasing, we strive to deliver
+                    exceptional value to our clients and users. We invite you to learn more about our company and to join us on
+                    this exciting journey towards the next evolution of the web. Together, we can build a brighter future for
+                    the internet and the world at large
                 </p>
             </div>
-            <h2 className="mb-12 text-center text-lg text-off-white md:text-xl">
-                <span>
-                    Value
-                </span>
-            </h2>
-            <div>
-                <p>
-                The vision of DeepBlue Labs is to be the leading developer of cutting-edge web 3.0 and AI projects that enhance and improve the human experience. We strive to create innovative solutions that push the boundaries of what is possible and make a positive impact on the world. Our goal is to be at the forefront of technological advancement and help shape the future of the internet. We envision a future where our technology helps to create more efficient, connected, and intelligent systems that benefit everyone.                </p>
-            </div>
-            
-        </div>
-    </>
+        </Container>
+    </div>
 )
