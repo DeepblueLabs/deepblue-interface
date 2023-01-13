@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const NextConfig = {
-  exportTrailingSlash: true,
+  trailingSlash: true,
   experimental: {
     appDir: true,
   },
