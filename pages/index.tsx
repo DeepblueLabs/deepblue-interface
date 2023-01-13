@@ -4,7 +4,6 @@ import { HomepageHero } from '../components/sections/homepage-hero';
 import { PowerBy } from '../components/sections/powerBy';
 import { Projects } from '../components/sections/projects';
 import { About } from '../components/sections/about';
-import { Contact } from '../components/sections/Contact';
 
 export default function HomePage() {
     return (

@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const NextConfig = {
-  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   experimental: {
-    appDir: true,
+    appDir: false,
   },
 };
 
