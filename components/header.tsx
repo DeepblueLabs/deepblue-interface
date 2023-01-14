@@ -52,10 +52,10 @@ export const Header = () => {
                             hamburgerMenuIsOpen && "[&_a]:translate-y-0"
                         )}>
                             <li className='md:hidden lg:block'>
-                                <Link href="#projects">Projects</Link>
+                                <Link href="/#projects">Projects</Link>
                             </li>
                             <li className='md:hidden lg:block'>
-                                <Link href='#about'>About</Link>
+                                <Link href='/#about'>About</Link>
                             </li>
                             <li className='md:hidden lg:block'>
                                 <Link href='#'>Contact</Link>
@@ -65,7 +65,7 @@ export const Header = () => {
                 </div>
 
                 <div className='ml-auto h-full flex items-center'>
-                    <Link className='mr-6 text-sm hidden md:block' href='#'>Log In</Link>
+                    <Link className='mr-6 text-sm hidden md:block' href='#'>OpenSea Collection</Link>
                     <Button href='#' size='small' variant="primary">SharkPunks</Button>
                 </div>
 

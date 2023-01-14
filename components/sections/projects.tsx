@@ -8,9 +8,9 @@ import sharkpunks from '../illustrations/sharkpunks.png';
 import { Container } from '../container';
 
 export const Projects = () => (
-    <div className='text-grey-dark mb-14'>
+    <div className='text-grey-dark mb-14' id={"projects"}>
         <Container>
-            <div className="text-center" id="projects">
+            <div className="text-center">
                 <h2 className="mb-4 text-4xl md:text-7xl">
                     Project development
                 </h2>
@@ -46,13 +46,6 @@ export const Projects = () => (
                     </p>
                 </div>
                 <div className="flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(66.66%-12px)] md:basis-[calc(66.66%-12px)] md:p-14">
-                    {/* <Image
-                            src={sharkpunks}
-                            alt="enterprise image"
-                            className="items-center justify-center"
-                            width={250}
-                            height={250}
-                        /> */}
                     <p className="mb-4 text-3xl">SharkPunks</p>
                     <p className="text-md text-primary-text">
                         SharkPunks, a unique and innovative project that brings together the power of sharks,

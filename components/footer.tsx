@@ -8,32 +8,32 @@ const footerLink = [
     {
         title: 'Product',
         links: [
-            { title: 'SharkPunks', href: '#' },
-            { title: 'IAeyesNet', href: '#' },
+            { title: 'SharkPunks', href: '/sharkpunks' },
+            { title: 'IAeyesNet', href: '/iaeyesnet' },
         ],
     },
     {
         title: 'Company',
         links: [
-            { title: 'About', href: '#' },
-            { title: 'Blog', href: '#' },
-            { title: 'Careers', href: '#' },
+            { title: 'About', href: 'https://docs.deepbluelabs.co/' },
+            { title: 'Blog', href: 'https://docs.deepbluelabs.co/' },
+            { title: 'Careers', href: 'https://docs.deepbluelabs.co/' },
         ],
     },
     {
         title: 'Resources',
         links: [
-            { title: 'Community', href: '#' },
-            { title: 'Contact', href: '#' },
-            { title: 'Privacy Policy', href: '#' },
-            { title: 'Terms of Service', href: '#' },
+            { title: 'Community', href: 'https://discord.gg/WKZtnCHrpy' },
+            { title: 'Contact', href: 'mailto: business@deepbluelabs.co' },
+            { title: 'Privacy Policy', href: '/privacy-policy' },
+            { title: 'Terms of Service', href: '/terms-of-service' },
         ],
     },
     {
         title: 'Developers',
         links: [
-            { title: 'API', href: '#' },
-            { title: 'Github', href: '#' },
+            { title: 'API', href: '/api' },
+            { title: 'Github', href: 'https://github.com/DeepBlue-Labs' },
         ],
     },
 ]
@@ -47,8 +47,12 @@ export const Footer = () => (
                         <Logo className='mr-4 h-4 w-4' />© 2023 DeepBlue Labs.
                     </div>
                     <div className='mt-auto flex space-x-4 text-grey'>
+                    <Link href={"https://github.com/DeepBlue-Labs"}>
                         < GithubIcon />
+                    </Link>
+                    <Link href={"https://twitter.com/deepbluelab"}>
                         < TwitterIcon />
+                    </Link>
                     </div>
                 </div>
             </div>
