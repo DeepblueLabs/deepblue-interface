@@ -21,15 +21,13 @@ export const About = () => (
                 <p className='text-md text-primary-text '>
                     Our team includes well-known developers, core members of public chains and other infrastructure projects,
                     and experts in blockchain governance and economic architecture. Many of our team members come from crypto companies,
-                    giving us strong expertise in the creation and development of blockchain projects.
-                    <br className='hidden md:inline-block' />
-                    <br className='hidden md:inline-block' />
+                    giving us strong expertise in the creation and development of blockchain projects. <br /><br />
+
                     As a team, we are dedicated to creating innovative projects that utilize the power of web 3.0 technologies.
                     With SharkPunks, we aim to bring together a community of collectors and investors who share our passion for
                     technology and innovation. We look forward to working with our community to build and grow SharkPunks into
-                    a successful and impactful project.
-                    <br className='hidden md:inline-block' />
-                    <br className='hidden md:inline-block' />
+                    a successful and impactful project. <br /><br />
+
                     With a focus on creating projects that are both functional and aesthetically pleasing, we strive to deliver
                     exceptional value to our clients and users. We invite you to learn more about our company and to join us on
                     this exciting journey towards the next evolution of the web. Together, we can build a brighter future for
