@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,node
+# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,node
 
 ### Linux ###
 *~
@@ -215,4 +215,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,node
+# End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,node

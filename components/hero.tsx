@@ -1,4 +1,4 @@
-import Typewriter from 'react-ts-typewriter';
+// import Typewriter from 'react-ts-typewriter';
 import classNames from 'classnames';
 
 interface HeroProps {
@@ -16,7 +16,8 @@ export const HeroTitle = ({ children, className }: HeroElementProps) => {
             className={classNames(
                 "text-gradient my-6 md:text-7xl text-5xl text-grey-dark", className
             )}>
-                <Typewriter text={`${children}`} cursor={false} speed={60}></Typewriter>
+                {/* <Typewriter text={`${children}`} cursor={false} speed={60}></Typewriter> */}
+                {children}
             </h1>
     );
 };

@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./components/**/*.{js,ts,jsx,tsx}", "./app/**/*.{ts,tsx}"],
+  content: [
+    './app/**/*.{html,js,jsx}',
+    './components/**/*.{html,js,jsx}',
+    './sections/**/*.{html,js,jsx}',
+    './styles/**/*.{js,jsx}',
+  ],
   theme: {
     fontFamily: {
       // sans: '"SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu, Cantarell,"Open Sans","Helvetica Neue",sans-serif',
